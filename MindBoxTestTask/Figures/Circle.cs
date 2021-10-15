@@ -5,7 +5,7 @@ namespace MindBoxTestTask.Figures
 {
     public class Circle: ICalculateFigureArea
     {
-        public double Radius { get; init; }
+        public double Radius { get; }
 
         public Circle(double radius) 
         {

@@ -6,9 +6,9 @@ namespace MindBoxTestTask.Figures
     public class Triangle : ICalculateFigureArea
     {       
 
-        public double SideA { get; init; }
-        public double SideB { get; init; }
-        public double SideC { get; init; }
+        public double SideA { get; }
+        public double SideB { get; }
+        public double SideC { get; }
 
         public bool IsRightTriangle 
         {

@@ -5,9 +5,9 @@ namespace MindBoxTestTask.Figures
 {
     public class Circle: ICalculateFigureArea
     {
-        public float Radius { get; init; }
+        public double Radius { get; init; }
 
-        public Circle(float radius) 
+        public Circle(double radius) 
         {
             if (radius <= 0) throw new ArgumentException("Радиус не может быть меньше или равен нулю нуля");
 
